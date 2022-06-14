@@ -1,0 +1,58 @@
+*{background-image: url(https://thumbs.gfycat.com/AffectionateDesertedGoa-max-1mb.gif);
+    background-color: rgb(11, 20, 75);
+}
+
+section{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+#photo{
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+#photo img{
+    margin: auto;
+    width: 140px;
+}
+#display {
+    padding: 10px;
+    font-style: italic;
+    color: rgb(255, 255, 255);
+    background-color:#2d2f30;;
+    cursor: pointer;
+    /* border: 1px solid black; */
+    margin: auto;
+
+
+    /**/
+    /* border-radius: 14px; */
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+
+
+    width: 400px;
+    height: 300px;
+    overflow: scroll;
+}
+#query{
+    width: 420px;
+    height: 40px;
+    padding-left:20px ;
+   
+    border: 1px solid rgb(255, 205, 41);
+    color: rgb(255, 255, 255);
+    background-color:#464e52;;
+    /* color: gainsboro; */
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+}
+
+#display div {
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
